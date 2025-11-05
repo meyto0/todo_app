@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-    <h1>📝 Менеджер задач с PostgreSQL</h1>
+    <h1>📝 Менеджер задач</h1>
     
     <form action="/add" method="post">
         <input type="text" name="task" placeholder="Что нужно сделать?" required>
@@ -39,7 +39,7 @@
                 </div>
             {% endfor %}
         {% else %}
-            <p>Пока нет задач. Добавьте первую!</p>
+            <p>Пока нет задач</p>
         {% endif %}
     </div>
 </body>
